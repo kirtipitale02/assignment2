@@ -5,6 +5,7 @@
 
 1.create database in phpmyadmin(countrysearch)
 
+
 2. php artisan migrate (running all outstanding migration )
 
 OR php artisan migrate - path=/app/database/migrations/create_countries_table (running all outstanding migration for a path)
