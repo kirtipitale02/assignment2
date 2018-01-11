@@ -32,7 +32,7 @@ OR php artisan migrate - path=/app/database/migrations/create_countries_table (r
 
 1. php artisan migrate (running all outstanding migration ) OR php artisan migrate --path=/app/database/migrations/create_countries_table (running all outstanding migration for a path)
 
-2.php artisan db:seed --class=CountryTableSeeder
+2. php artisan db:seed --class=CountryTableSeeder
 
 FOR CREATING ROUTE (web.php) :
 Route::get('/','CountryController@CountriesList');
