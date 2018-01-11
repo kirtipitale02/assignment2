@@ -1,19 +1,17 @@
 
 ************* Assignment Two *************
 
-
-
-
 ************* following commands need to be executed **********
 
-1. php artisan migrate (running all outstanding migration ) OR php artisan migrate --path=/app/database/migrations/create_countries_table (running all outstanding migration for a path)
+1.create database in phpmyadmin(countrysearch)
 
-2.php artisan db:seed --class=CountryTableSeeder
+2. php artisan migrate (running all outstanding migration )
+OR php artisan migrate - path=/app/database/migrations/create_countries_table (running all outstanding migration for a path)
+
+3.php artisan db:seed --class=CountryTableSeeder
 
 
 ************* Process *************
-
-
 
 1. composer create-project laravel/laravel project-name
 
@@ -30,7 +28,6 @@
 
 ************ Commands are used to run the project ***********
 
-
 1. php artisan migrate (running all outstanding migration ) OR php artisan migrate --path=/app/database/migrations/create_countries_table (running all outstanding migration for a path)
 
 2.php artisan db:seed --class=CountryTableSeeder
@@ -45,8 +42,6 @@ FOR CREATING VIEW (countries-list.blade.php)
 
 
 ************** Once the setup of the project has been done *******************
-
-
 
 1. php artisan serve
 
